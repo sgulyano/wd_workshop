@@ -35,3 +35,5 @@ Western Digital workshop on 16-18 Dec 2019
 
 ### Data
   location to the sample data
+* [Bank Marketing Data Set](https://archive.ics.uci.edu/ml/datasets/bank+marketing)
+
