@@ -1,5 +1,5 @@
-# BEM-workshop
-PostgreSQL Docker by Wisit Tipchuen
+# WD-workshop
+MongoDB Docker by Sarun Gulyanon
 
 ## Install Docker on Windows
 * https://docs.docker.com/docker-for-windows/install/?fbclid=IwAR2rnhapojanHBsAuKgfhEmm7uBwsizlfLaFmKXRNbBB7aFfvPAAnxLUoUE
@@ -11,8 +11,8 @@ docker-compose up -d
 ```
 
 Connect to localhost
-Port 5432 สำหรับ db ครับ 
-User: postgres
+Port 27017 สำหรับ db 
+User: mongo
 Password: password
 
 
@@ -21,14 +21,8 @@ Password: password
 docker-compose down
 ```
 
-## Add External Data
-Put files in `data` folder. These files will be included in the container. Use `docker-compose exec <name-in-yml> sh` to enter shell inside the container.
-Create database, type: `psql -U postgres -W -c "CREATE DATABASE \"Adventureworks\";"`
-Import data, type: `psql -d Adventureworks < install.sql`
-
-## Access Adminer
-Go to localhost port 8080
+## Access Mongo Express
+Go to localhost port 8081
 Enter 
-Database: postgres
-User: postgres
+User: mongo
 Password: password
