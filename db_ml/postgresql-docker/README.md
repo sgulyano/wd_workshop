@@ -1,4 +1,4 @@
-# BEM-workshop
+# WD-workshop
 PostgreSQL Docker by Wisit Tipchuen
 
 ## Install Docker on Windows
